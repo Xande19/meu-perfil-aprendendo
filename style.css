@@ -45,7 +45,7 @@ body {
     border: rgb(41, 223, 35) solid;
 }
 
-section nav a {
+section nav p {
     color: white;
     font-size: 3.5rem;
     cursor: default;
@@ -96,8 +96,9 @@ section a {
 
 .Contato {
     display: flex;
-    padding-left: 80rem;
     align-items: center;
+    gap: 10px;
+    padding-left: 48%;
 }
 
 .Biografia {
@@ -135,28 +136,36 @@ footer {
 
 @media screen and (max-width: 768px) {
 
+p {
+    padding: 0;
+    margin: 0;
+}
+
 .Biografia {
     text-align: center;
-    padding-right: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 25rem;
 }
 
 .Contato {
-    padding: 0; 
-
-      
+    padding-left: 1.0rem;
+    flex-direction: column;
+    text-align: center;
 }
 
-section nav a {
-    font-size: 2rem;
-    padding: 0.2rem;
+section nav p {
+    font-size: 2.5rem;
+    padding-right: 1.5rem;
+    padding-left: 1rem;
 }
 
 .Imagem {
-    max-width: 80px;
-    max-height: 80px;
+    max-width: 120px;
+    max-height: 120px;
     width: auto;
     height: auto;
-    margin-right: 2rem;
+    margin: 0;
 
 }
 
