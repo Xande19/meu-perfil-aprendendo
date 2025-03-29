@@ -1,0 +1,168 @@
+:root {
+    --main-color: #d3ad7f;
+    --hovered-background: #fff;
+    --black: #13131a;
+    --bg: #010103;
+    --border: 0.1rem solid rgba(255,255,255,0.3);
+    font-size: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: 0.2s linear;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.header {   
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border-bottom: #1d1b1b  0.2rem solid;
+    background-color: black;
+}
+
+.Imagem {
+    margin-left: 2rem;
+    cursor: default;
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+    border-top-left-radius: 30rem;
+    border-top-right-radius: 30rem;
+    border-bottom-right-radius: 30rem;
+    border-bottom-left-radius: 30rem;
+    border: rgb(41, 223, 35) solid;
+}
+
+section nav a {
+    color: white;
+    font-size: 3.5rem;
+    cursor: default;
+
+}
+
+section {
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+
+}
+
+section a {
+    padding-left: 50px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+}
+
+.Icon-Instagram {
+    max-width: 45px;
+    max-height: 45px;
+    width: auto;
+    height: auto;
+}
+
+.Icon-Linkedin {
+    max-width: 45px;
+    max-height: 45px;
+    width: auto;
+    height: auto;
+}
+
+.Rede-Social {
+    align-items: center;
+    font-size: 2rem;
+    padding-right: 1.5rem;
+    padding-left: 0.5rem;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.Rede-Social:hover {
+    color: #2196f3;
+}
+
+.Contato {
+    display: flex;
+    padding-left: 80rem;
+    align-items: center;
+}
+
+.Biografia {
+    color: white;
+    font-size: 2rem;
+    padding-top: 20rem;
+    padding-left: 8rem;
+}
+
+.One-Paragrafo {
+    padding-top: 2rem;
+}
+
+.Two-Paragrafo {
+    padding-top: 2rem;
+}
+
+.Three-Paragrafo {
+    padding-top: 2rem;
+}
+
+.Four-Paragrafo {
+    padding-top: 2rem;
+}
+
+footer {
+    position: fixed;
+    background-color: rgb(49, 48, 48);
+    color: #fff;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}
+
+@media screen and (max-width: 768px) {
+
+.Biografia {
+    text-align: center;
+    padding-right: 5rem;
+}
+
+.Contato {
+    padding: 0; 
+
+      
+}
+
+section nav a {
+    font-size: 2rem;
+    padding: 0.2rem;
+}
+
+.Imagem {
+    max-width: 80px;
+    max-height: 80px;
+    width: auto;
+    height: auto;
+    margin-right: 2rem;
+
+}
+
+section {
+    padding: 9px;
+}
+
+
+}
