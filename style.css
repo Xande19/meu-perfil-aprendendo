@@ -49,6 +49,7 @@ section nav p {
     color: white;
     font-size: 3.5rem;
     cursor: default;
+    padding-left: 6rem;
 
 }
 
@@ -98,7 +99,7 @@ section a {
     display: flex;
     align-items: center;
     gap: 10px;
-    padding-left: 48%;
+    padding-left: 55%;
 }
 
 .Biografia {
@@ -106,6 +107,8 @@ section a {
     font-size: 2rem;
     padding-top: 20rem;
     padding-left: 8rem;
+    word-break: normal;
+    margin-right: 2.7rem;
 }
 
 .One-Paragrafo {
@@ -132,6 +135,27 @@ footer {
     width: 100%;
     text-align: center;
     padding: 5px;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 992px) {  
+
+    .Contato {
+        padding-left: 29rem;
+    
+    
+    
+    }
+    
+    nav p {
+        font-size: 2rem;
+        padding-left: 6rem;
+    }
+    
+    footer {
+        font-size: 2rem;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -142,22 +166,19 @@ p {
 }
 
 .Biografia {
-    text-align: center;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 25rem;
+    margin: 2rem;
 }
 
 .Contato {
-    padding-left: 1.0rem;
+    padding-left: 12rem;
     flex-direction: column;
     text-align: center;
 }
 
 section nav p {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     padding-right: 1.5rem;
-    padding-left: 1rem;
+    padding-left: 8rem;
 }
 
 .Imagem {
@@ -172,6 +193,13 @@ section nav p {
 section {
     padding: 9px;
 }
+
+
+
+
+
+
+
 
 
 }
